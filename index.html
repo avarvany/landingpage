@@ -1,27 +1,84 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Landing Page</title>
-</head>
-<body>
-    <div class="header">
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div class="hero">
+      <nav id="header">
         <div class="title"><p>Abdul Varvany</p></div>
-        <a href="">Hobbies</a>
-        <a href="">Inspiration</a>
-        <a href="">Subscribe</a>
+        <div class="links">
+          <a href="#hobbies">Hobbies</a>
+          <a href="#inspiration">Inspiration</a>
+          <a href="#subscribe">Subscribe</a>
+        </div>
+      </nav>
+      <div class="tb">
+        <div class="top-banner">
+          <h1 class="h1">I'm a 33 year old...</h1>
+          <p class="hero-sec">
+            ...with a continuous desire to learn. Let's see what we can make of
+            this.
+          </p>
+          <button class="top-button">Sign Up</button>
+        </div>
+        <img class="header-img" src="./images/top-banner.jpg" alt="coding" />
+      </div>
     </div>
-    <div class="top-banner">
-        <h1>I'm a 33 year old...</h1>
-        <p>...with a continuous desire to learn. Let's see what we can make of this. One thing, though, I know I'll strive until I make it.</p>
+    <div id="hobbies">
+      <h2 class="h2">My Hobbies</h2>
+      <div class="tiles">
+        <div class="hobbies-banner1">
+          <img
+            class="hobby1"
+            src="./images/photography.jpg"
+            alt="photography"
+          />
+          <p class="cap1">Photography</p>
+        </div>
+        <div class="hobbies-banner2">
+          <img class="hobby2" src="./images/coding.jpg" alt="coding" />
+          <p class="cap2">Coding</p>
+        </div>
+        <div class="hobbies-banner3">
+          <img class="hobby3" src="./images/reading.jpg" alt="reading" />
+          <p class="cap3">Reading</p>
+        </div>
+        <div class="hobbies-banner4">
+          <img class="hobby4" src="./images/music.jpg" alt="music" />
+          <p class="cap4">Music</p>
+        </div>
+      </div>
+    </div>
+    <div id="inspiration">
+      <div class="quote">
+        <p>
+          "If a man is called a streetsweeper, he shoud sweep streets even as
+          Michelangelo painted, or Beethoven composed music, or Shakespeare
+          wrote poetry. He should sweep streets so well that all the hosts of
+          heaven and earth will pause to say, Here lived a great streetsweeper
+          who did his job well."
+        </p>
+      </div>
+      <div class="credit">
+        <p>- Martin Luther King Jr.</p>
+      </div>
+    </div>
+    <div id="subscribe">
+      <div class="subtext">
+        <h4 class="h4">Call to action! It's time!</h4>
+        <p>Sign up for all the latest updates on every project I work on.</p>
+      </div>
+      <div class="sub-button">
         <button>Sign Up</button>
-        <img src="./images/top-banner.jpg" alt="coding">
+      </div>
     </div>
-    <div class="hobbies">
-        <h2>My Hobbies</h2>
-        
+    <div class="footer">
+      <footer><p>Copyright Abdul Varvany 2022.</p></footer>
     </div>
-</body>
+  </body>
 </html>

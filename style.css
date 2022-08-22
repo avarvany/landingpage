@@ -1,0 +1,222 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.hero {
+    background-color: #1F2937;
+}
+
+#header {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+}
+
+.title {
+    font-size: 24px;
+    color: #F9FAF8;
+    padding-left: 50px;
+}
+
+.links {
+    font-size: 24px;
+    padding-right: 50px;
+}
+
+.tb {
+    display: flex;
+}
+
+.top-banner {
+ display: flex;
+ flex-direction: column;
+ padding: 50px;
+ padding-top: 100px;
+}
+
+.h1 {
+    color: #F9FAF8;
+    font-size: 48px;
+    font-weight: bolder;
+    align-self: center;
+}
+
+.hero-sec {
+    font-size: 18px;
+    color: #E5E7EB;
+    padding: 10px;
+}
+
+.top-button {
+    width: 100px;
+    background-color: #3882F6;
+    padding: 10px;
+    border-radius: 10px;
+    align-self: center;
+    text-align: center;
+}
+
+.header-img {
+    height: auto;
+    width: 600px;
+    padding: 50px;
+    margin-right: auto;
+    border-radius: 100px;
+}
+
+#hobbies {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+
+.h2 {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
+    align-self: center;
+    margin: 50px auto;
+}
+
+.tiles {
+   display: flex;
+}
+
+.hobbies-banner1 {
+
+}
+
+.hobby1 {
+    height: 300px;
+    width: 300px;
+    border-radius: 100px;
+    margin-right: 50px;
+}
+
+.cap1 {
+    margin-left: 100px;
+    padding-top: 5px;
+}
+
+.hobbies-banner2 {
+
+}
+
+.hobby2 {
+    height: 300px;
+    width: 300px;
+    border-radius: 100px;
+    margin-right: 50px;
+}
+
+.cap2 {
+    margin-left: 130px;
+    padding-top: 5px;
+}
+
+.hobbies-banner3 {
+
+}
+
+.hobby3 {
+    height: 300px;
+    width: 300px;
+    border-radius: 100px;
+    margin-right: 50px;
+}
+
+.cap3 {
+    margin-left: 120px;
+    padding-top: 5px;
+}
+
+.hobbies-banner4 {
+
+}
+
+.hobby4 {
+    height: 300px;
+    width: 300px;
+    border-radius: 100px;
+
+}
+
+.cap4 {
+    text-align: center;
+    padding-top: 5px;
+}
+
+#inspiration {
+    background-color: #E5E7EB;
+    margin: 50px auto;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+}
+
+.quote {
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+}
+
+.credit {
+    padding-top: 10px;
+    text-align: right;
+    font-weight: bold;
+}
+
+#subscribe {
+    background-color: #3882F6 ;
+    margin: 50px 200px;
+    padding: 80px;
+    display: flex;
+    justify-content: space-between  ;
+    border-radius: 5px;
+    border-color: none;
+}
+
+.subtext {
+    display: flex;
+    flex-direction: column;
+    color: #E5E7EB;
+}
+
+
+.h4 {
+
+}
+
+.sub-button {
+    color: #3882F6;
+    font-family: 'Roboto', arial;
+    border-color: #fff;
+    border-radius: 8px;
+    background-color: #E5E7EB;
+    padding: 15px;
+    font-size: 15px;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    color: #E5E7EB;
+    padding: 10px;
+    background-color: #1F2937;
+}
+
+button {
+    padding: 0;
+    border: none;
+    outline: none;
+    font: inherit;
+    color: inherit;
+    background: none
+  }
+  
+  button {
+    all: unset
+  }
